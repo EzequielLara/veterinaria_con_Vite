@@ -8,15 +8,14 @@ function App() {
   
  
   return (
-   <>
-      <h1>Hola Mundo:</h1>
+   <div className = "container mx-auto mt-20">
        <Header
-          caca = {'diarrea'}
-
+          nombre = {'Ezequiel'}
+          edad = { 42 }
        />
        <ListadoPacientes/> 
        <Formulario/>
-   </>
+   </div>
   )
 }
 
