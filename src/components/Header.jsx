@@ -1,13 +1,12 @@
 import React from 'react';
 
-const Header = ({nombre, edad}) => {
+const Header = () => {
     return (
-        <div>
-            <h1>Buenos días {nombre}</h1>
-            <h3>Su edad actual es de {edad}</h3>                
-            <h6>(header)</h6>
-            <hr></hr>
-        </div>
+        <>
+            <h1 className = "font-black text-5xl text-center md:w-2/3 mx-auto">Seguimiento Pacientes{' '} 
+             <span className ="text-indigo-600">Veterinaria</span>
+            </h1>
+        </>
     );
 };
 
